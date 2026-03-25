@@ -173,3 +173,16 @@ figcaption.attribution {
     border-radius: 8px;
     font-weight: 700;
 }
+
+footer {
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #f0faf8;
+    font-size: 19px;
+}
