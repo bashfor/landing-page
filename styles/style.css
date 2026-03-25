@@ -15,9 +15,9 @@
 ul {
     display: flex;
     gap: 25px;
-    color: white;
+    color: #e8e7eb;
     list-style: none;
-    font-size: 19px;
+    font-size: 18px;
     padding-left: 0;
     /* align logo with navigation links */
     align-items: center;
@@ -31,5 +31,50 @@ li a {
 li.logo {
     margin-right: auto;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 24px;
+    color:#f9faf8;
+}
+
+.hero-bottom {
+    display: flex;
+    margin-top: 110px;
+}
+
+.hero-main .main-text {
+    font-weight: 900;
+    font-size: 48px;
+    color: #f0faf8;
+    column-gap: 20px;
+    margin: 0 0 0;
+}
+
+.hero-main {
+    align-items: center;
+}
+
+.hero-main .main-subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-bottom: 14px;
+    margin-top: 0;
+}
+
+img {
+    margin-left: auto;
+    width: auto;
+    height: 150px;
+    justify-content: center;
+}
+
+.hero-bottom button {
+    text-align: center;
+    background-color: #3882f6;
+    color: #f0faf8;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: 0;
+    padding: 12px 33px;
+    border-radius: 8px;
+    font-weight: 700;
 }
