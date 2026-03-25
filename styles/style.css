@@ -78,3 +78,27 @@ img {
     border-radius: 8px;
     font-weight: 700;
 }
+
+.body {
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+}
+
+.body p {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-row figure {
+    text-align: center;
+}
