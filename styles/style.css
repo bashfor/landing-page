@@ -102,3 +102,31 @@ img {
 .image-row figure {
     text-align: center;
 }
+
+.quote {
+    height: 380px;
+    background-color: #e8e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figure {
+    flex-basis: 600px;
+}
+
+blockquote p {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+figcaption.attribution {
+    margin-left: auto;
+    margin-right: 60px;
+    width: 120px;
+    font-weight: bold;
+    color: #1f2937;
+}
